@@ -1,0 +1,12 @@
+DEPENDENCIES
+  bks-postgresql
+    path: .
+    metadata: true
+  bookshare
+    path: ../bookshare
+
+GRAPH
+  aws (2.4.0)
+  bks-postgresql (0.1.8)
+  bookshare (0.1.114)
+    aws (~> 2.4.0)
