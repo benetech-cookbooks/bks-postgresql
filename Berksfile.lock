@@ -7,6 +7,6 @@ DEPENDENCIES
 
 GRAPH
   aws (2.4.0)
-  bks-postgresql (0.1.8)
-  bookshare (0.1.114)
+  bks-postgresql (0.1.9)
+  bookshare (0.1.117)
     aws (~> 2.4.0)
