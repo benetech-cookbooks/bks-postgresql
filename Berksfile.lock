@@ -7,6 +7,13 @@ DEPENDENCIES
 
 GRAPH
   aws (2.4.0)
-  bks-postgresql (0.1.9)
-  bookshare (0.1.117)
+  bks-postgresql (0.1.30)
     aws (~> 2.4.0)
+    sysctl (~> 0.6.0)
+  bookshare (0.2.16)
+    aws (~> 2.4.0)
+    cron (~> 1.5.0)
+  cron (1.5.0)
+  ohai (2.0.1)
+  sysctl (0.6.0)
+    ohai (>= 0.0.0)

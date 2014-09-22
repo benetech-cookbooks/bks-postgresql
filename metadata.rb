@@ -4,4 +4,7 @@ maintainer_email 'rone@benetech.org'
 license          'All rights reserved'
 description      'Installs/Configures postgresql'
 long_description 'Installs/Configures postgresql'
-version          '0.1.9'
+version          '0.1.30'
+
+depends 'aws', '~> 2.4.0'
+depends 'sysctl', '~> 0.6.0'
