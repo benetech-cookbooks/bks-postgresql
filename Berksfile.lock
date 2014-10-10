@@ -4,16 +4,17 @@ DEPENDENCIES
     metadata: true
   bookshare
     path: ../bookshare
+  pgbouncer
+    path: ../pgbouncer
 
 GRAPH
   aws (2.4.0)
   bks-postgresql (0.1.30)
     aws (~> 2.4.0)
     sysctl (~> 0.6.0)
-  bookshare (0.2.16)
+  bookshare (0.2.50)
     aws (~> 2.4.0)
-    cron (~> 1.5.0)
-  cron (1.5.0)
   ohai (2.0.1)
+  pgbouncer (1.0.4)
   sysctl (0.6.0)
     ohai (>= 0.0.0)
